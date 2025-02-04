@@ -1,0 +1,28 @@
+# 🛑 Ignorer les fichiers contenant des secrets
+.env
+*.key
+*.pem
+*.crt
+*.config.json
+*.config.yaml
+
+# 🛑 Ignorer les dépendances Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 🛑 Ignorer les fichiers générés par Docker
+docker-compose.override.yml
+.dockerignore
+
+# 🛑 Ignorer les logs et cache
+logs/
+*.log
+debug.log
+*.pid
+*.seed
+.cache
+coverage/
+
+# 🛑 Ignorer les fichiers liés à CircleCI (si tu y mets des secrets)
+.circleci/secrets.yaml
